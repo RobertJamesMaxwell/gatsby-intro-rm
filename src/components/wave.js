@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { css } from '@emotion/core';
-import { useStaticQuery } from 'gatsby';
 
 const Wave = () => {
   const [waves, setWaves] = useState(0);
