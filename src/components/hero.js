@@ -51,7 +51,6 @@ const Hero = () => {
       }
     }
   `);
-  console.log('image: ', image);
 
   return (
     <ImageBackground Tag="section" fluid={image.sharp.fluid}>
